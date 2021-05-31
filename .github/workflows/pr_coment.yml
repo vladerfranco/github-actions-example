@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   comentar-PR:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     
     steps:
       - name: Comentando a PR
